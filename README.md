@@ -8,11 +8,13 @@ dependencies - installed these python mods in a virtual env
 
 ## Input
 used geojson.io online to generate 2 geoJSON polys  
-combined those into one JSON structure and used Postman to submit as HTTP POST  
+combined those into one JSON structure and used Postman to submit as HTTP POST with appropriate operation URL 
 example of this JSON is 2obinput.txt  
 format is:  
-	{ "poly1" : {geoJSON}, "poly2" : {geoJSON} }  
-home page assumes the States geoJSON txt file - please stage and point to it  
+	{ "poly1" : {<geoJSON>}, "poly2" : {<geoJSON>} }  
+  
+app home page assumes the existence of States geoJSON txt file - please stage and point to it  
+change path in dgSpatialOps.PY statesGeoJSON = r'<your location>/StatesGeoJSON.txt'  
 	
 ## Running
 ```
