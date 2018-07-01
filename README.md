@@ -1,10 +1,10 @@
 # Simple Spatial Ops REST app with flask
-used python 2.7
-dependencies - installed these python mods in a virtual env
-	flask
-	pandas
-	geopandas
-	geojsonio
+used python 2.7  
+dependencies - installed these python mods in a virtual env  
+	flask  
+	pandas  
+	geopandas  
+	geojsonio  
 
 ## Input
 used geojson.io online to generate 2 geoJSON polys  
