@@ -1,0 +1,36 @@
+/ops/union
+/ops/intersection
+
+
+from terminal
+
+cd /Users/regandwyer/dev/VirtEnv/ve1/bin
+
+source activate
+
+python /Users/regandwyer/dev/eclipseWS/dg_App/dgSpatialREST/dgSpatialOps.py
+
+tests
+
+from VE
+
+python /Users/regandwyer/dev/eclipseWS/dg_App/dgSpatialREST/dgSOtests.py
+
+
+#######
+
+#export FLASK_APP=/Users/regandwyer/dev/eclipseWS/dg_App/dgSpatialREST/dgSpatialOps.py
+
+#python -m flask run
+
+**********************
+
+geopandas resoucres
+
+http://geopandas.org/geometric_manipulations.html
+
+installed python mods
+	flask
+	pandas
+	geopandas
+	geojsonio
